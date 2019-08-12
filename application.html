@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Suin.css">
+  <link rel="stylesheet" href="app.css">
+  <script src = "navi.js"></script>
+  <script src="app.js"></script>
+  <title>Application</title>
+</head>
+<body>
+  <nav class = "navigator">
+    <span id="menu"><i class="fa fa-bars" aria-hidden="true"></i></span>
+    <span id="x" style = "display : none">X</span>
+    <ul class = "navi_menu" style = "display : none">
+      <li ><a href="Suin_Home.html">Home</a></li>
+      <li ><a href="intro.html">About</a></li>
+      <li ><a href="schedule.html">Schedule</a></li>
+      <li ><a href="application.html">Application</a></li>
+    </ul>
+  </nav>
+  <div class="calcul" align="center">
+    		<table class="win" >
+    		<tr>
+    		<td>
+    			<h3>JavaScript Calculator<br></h3>
+    		</td>
+    		</tr>
+    		<tr>
+    		<td>
+    		<input type="text" id="display" value="" maxlength="40" size="25">
+    		</td>
+    		</tr>
+    		</table>
+    		<table class="nums">
+    			<tr>
+    				<td><input type="button" value="  7  " onclick="add('7')"></td>
+    				<td><input type="button" value="  8  " onclick="add('8')"></td>
+    				<td><input type="button" value="  9  " onclick="add('9')"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="button" value="  4  " onclick="add('4')"></td>
+    				<td><input type="button" value="  5  " onclick="add('5')"></td>
+    				<td><input type="button" value="  6  " onclick="add('6')"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="button" value="  1  " onclick="add('1')"></td>
+    				<td><input type="button" value="  2  " onclick="add('2')"></td>
+    				<td><input type="button" value="  3  " onclick="add('3')"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="button" value=" +/- " onclick="trans()"></td>
+    				<td><input type="button" value="  0  " onclick="add('0')"></td>
+    				<td><input type="button" value="  .  " onclick="add('.')"></td>
+    			</tr>
+    		</table>
+
+    		<table class="cal">
+    			<tr>
+    				<td><input type="button" value="  CE  " onclick="CE()"></td>
+    				<td><input type="button" value="  C  " onclick="C()"></td>
+    				<td><input type="button" value=" HELP " onclick="helpDisplay()"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="button" value="  *  " onclick="add('*')"></td>
+    				<td><input type="button" value="  /  " onclick="add('/')"></td>
+    				<td><input type="button" value="  %  " onclick="percent()"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="button" value="  +  " onclick="add('+')"></td>
+    				<td><input type="button" value="  -  " onclick="add('-')"></td>
+    				<td><input type="button" value=" 1/x " onclick="fraction()"></td>
+    			</tr>
+    			<tr>
+    				<td><input type="button" value="  =  " onclick="equal()"></td>
+    				<td><input type="button" value=" Ln " onclick="do_ln()"></td>
+    				<td><input type="button" value=" SQRT " onclick="do_sqrt()"></td>
+    			</tr>
+    		</table>
+  </div>
+  <footer>
+		Copyright  ©  2018 Suin Choi All Rights Reserved.
+	</footer>
+</body>
+</html>

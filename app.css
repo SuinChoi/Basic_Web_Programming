@@ -1,0 +1,36 @@
+
+.win{
+  border-collapse:  collapse;
+  border-style: none;
+  width:300px;
+  height : 20px;
+  margin-top : 150px;
+  background-color: #DBD4B4;
+}
+
+.nums, .cal{
+  border-collapse:  collapse;
+  border-style: none;
+  display:inline;
+  width : 150px;
+  height: 120px ;
+  background-color: #DBD4B4;
+}
+
+.win input{
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: navy;
+}
+.nums input, .cal input{
+  background-color: #DBD4B4;
+    border: none;
+    color: navy;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}

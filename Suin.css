@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+html {
+    overflow: auto;
+    height : 100%;
+}
+body {
+    width:100%;
+    height : 100%;
+    margin: 0;
+    overflow: auto;
+    font-family: 'Jeju Gothic', serif;
+}
+#my_header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer{
+  position: absolute;
+  bottom:0;
+  height : 30px;
+  width : 100%;
+  background-color: white;
+  color : balck;
+  padding-left: 15px;
+  padding-top: 2px;
+}
+.navigator{
+  position:fixed;
+  background-color: white;
+  color: #111010;
+  height:50px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  text-align: center;
+  width : 100%;
+}
+.navigator #name{
+left: 60px;
+}
+hr, iframe{
+  margin: 0px;
+}
+.navi_menu{
+  list-style: none;
+  text-align: center;
+  margin-top: 60px;==
+  \
+}
+.navi_menu li{
+  display: inline;
+  margin : 20px;
+}
+.navi_menu li a:link{
+  color : white;
+  text-decoration : none
+}
+.navi_menu li a:visited{
+  color : white;
+  text-decoration : none
+}
+.navi_menu li a:hover{
+  color : pink;
+  text-decoration : none
+}
+.navi_menu li a:active{
+  color : pink;
+  text-decoration : none
+}
+.navi_menu li a:focus{
+  color : pink;
+  text-decoration : none
+}
+
+.box{
+  height : 8px;
+  background-color: #111010;
+  width:100%;
+  margin-top: 0px;
+}
+#clock_canvas{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.imageSection img{
+  width : 350px;
+  height : 200px;
+}
+#x{
+  color:white;
+}
+.content h2, h3{
+    text-align: center;
+}
+.home_content{
+  width : 100%;
+  height : 800px;
+  background-image:linear-gradient(to right,#CC95C0,#DBD4B4,#7AA1D2);
+  background-size: 100%;
+}
+.home_content p{
+  color : white;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 160px;
+  font-size: 70px;
+  font-family:avenir-lt-w01_85-heavy1475544,sans-serif;
+  text-shadow: 1px 1px black;
+}
+.home_content hr{
+  width : 600px;
+  margin-left : auto;
+  margin-right : auto;
+}
+ table, th, td{
+   border: 1px solid black;
+ }
+ #calendar{
+   border-collapse:  collapse;
+   width: 600px;
+   height: 800px;
+   margin-top: 70px;
+   margin-left: auto;
+   margin-rigt : auto;
+   table-layout: fixed;
+ }
